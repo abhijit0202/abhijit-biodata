@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit Kr. Yadav - Bio-Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section h2 {
+            font-size: 16px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #3498db;
+            display: inline-block;
+            padding-bottom: 3px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 14px;
+        }
+        .info-item {
+            margin-bottom: 8px;
+        }
+        .info-item span {
+            font-weight: 600;
+            color: #555;
+        }
+        .full-width {
+            grid-column: span 2;
+        }
+        .edu-item, .family-item {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .edu-item strong, .family-item strong {
+            color: #2c3e50;
+        }
+        @media (max-width: 480px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            .full-width {
+                grid-column: span 1;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Abhijit Kr. Yadav</h1>
+            <p>Digital Bio-Data</p>
+        </div>
+
+        <!-- Personal Information -->
+        <div class="section">
+            <h2>Personal Details</h2>
+            <div class="info-grid">
+                <div class="info-item"><span>Date of Birth:</span> 28 Dec 2007</div>
+                <div class="info-item"><span>Gender:</span> Male</div>
+                <div class="info-item"><span>Height:</span> 6'1"</div>
+                <div class="info-item"><span>Marital Status:</span> Unmarried</div>
+                <div class="info-item"><span>Blood Group:</span> B+</div>
+                <div class="info-item"><span>Nationality:</span> Indian</div>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="section">
+            <h2>Contact Information</h2>
+            <div class="info-grid">
+                <div class="info-item"><span>Mobile:</span> 9864541466</div>
+                <div class="info-item"><span>Email:</span> abhijityadav569@gmail.com</div>
+                <div class="info-item full-width"><span>Address:</span> Kheroni West K/A, Assam – 783448</div>
+            </div>
+        </div>
+
+        <!-- Educational Qualification -->
+        <div class="section">
+            <h2>Educational Qualification</h2>
+            <div class="edu-item">
+                <strong>B.Com. — 1st Semester</strong><br>
+                Lanka Mahavidyalaya
+            </div>
+            <div class="edu-item" style="margin-top: 12px;">
+                <strong>Higher Secondary (12th):</strong> 66%<br>
+                Lanka Senior Secondary School
+            </div>
+            <div class="edu-item" style="margin-top: 12px;">
+                <strong>Secondary (10th):</strong> 73%<br>
+                Don Bosco Higher Secondary School, Kheroni
+            </div>
+        </div>
+
+        <!-- Family Details -->
+        <div class="section">
+            <h2>Family Details</h2>
+            <div class="family-item"><strong>Father:</strong> Nand Lal Yadav (Businessman)</div>
+            <div class="family-item"><strong>Mother:</strong> PhulMati Devi (Housewife)</div>
+            <div class="family-item"><strong>Siblings:</strong> Seema Yadav & Permeshwar Yadav</div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="section">
+            <h2>Social Media</h2>
+            <div class="family-item"><strong>Instagram:</strong> @abhijit_yadav009</div>
+        </div>
+    </div>
+
+</body>
+</html>
